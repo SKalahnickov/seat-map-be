@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Seatmap.Models.Enums
+{
+    public enum DrawElementType
+    {
+        Compartment, 
+        Conductor,
+        Crane,
+        PlatzVertical,
+        Toilet,
+        AviaSeat,
+        AviaSeatUp
+    }
+}
